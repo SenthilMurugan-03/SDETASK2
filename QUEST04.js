@@ -1,0 +1,11 @@
+let holdCabinet1 =['duct tape', 'gum', 3.14, false, 6.022e23];
+let holdCabinet2 =['orange drink', 'nerf toys', 'camera', 42, 'parsnip'];
+console.log('After concating two arrays : '+holdCabinet1.concat(holdCabinet2));
+console.log('Original Array : '+holdCabinet1);
+console.log('Original Array : '+holdCabinet2);
+let slicear=holdCabinet1.slice(0,2).concat(holdCabinet2.slice(0,2));
+console.log('Element after slice from each array : '+slicear);
+console.log('Original Array : '+holdCabinet1);
+console.log('Original Array : '+holdCabinet2);
+console.log('Array reversed : '+holdCabinet1.reverse());
+console.log('Array Sorted'+holdCabinet2.sort());
