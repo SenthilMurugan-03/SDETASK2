@@ -29,7 +29,7 @@ console.log("The location of mary is : "+(people.indexOf('Mary')));
 //9.
 console.log("The location of mary is : "+(people.indexOf('Foo')));
 //10.
-people.slice(people.indexOf('Devon'),1,"Elizabeth" ,"Artie");
+people.splice(people.indexOf('Devon'),1,"Elizabeth" ,"Artie");
 console.log(people); 
 //11.
 let withBob=people.concat('Bob');
