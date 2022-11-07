@@ -1,0 +1,11 @@
+let cargoHold=['oxygen tanks', 'space suits', 'parrot', 'instruction manual', 'meal packs', 'slinky', 'security blanket'];
+cargoHold[5]='space tether';
+console.log(cargoHold);
+console.log('removed element is :'+cargoHold.pop());
+console.log(cargoHold);
+console.log('removed element is :'+cargoHold.shift());
+console.log(cargoHold);
+cargoHold.unshift(1138);
+cargoHold.push('20 meters');
+console.log(cargoHold);
+console.log(`Final Array: ${cargoHold}.its length ${cargoHold.length}`);
